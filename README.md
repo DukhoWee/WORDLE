@@ -20,7 +20,7 @@ The game ends when the player guesses the word correctly or uses all six attempt
 
 - .NET 10 SDK
 - F#
-
+<!--
 ## How to Run
 
 Clone this repository:
@@ -45,7 +45,7 @@ After each valid guess, the program prints feedback using `[G]`, `[Y]`, and `[B]
 The player wins by guessing the hidden word within six attempts. If the player fails to guess the word after six valid guesses, the game reveals the correct answer and ends.
 
 After the game ends, the player can choose whether to play again.
-
+-->
 ## Example
 
 ```text
