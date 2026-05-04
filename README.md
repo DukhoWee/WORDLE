@@ -72,7 +72,3 @@ This project is currently in the proposal stage.
 The final implementation will be completed in this repository using F# and .NET 10.
 
 ## LLM Usage
-
-An LLM was used to help draft the project proposal and README structure. The final requirements and implementation will be manually reviewed and modified as needed.
-
-During implementation, if an LLM is used to generate or revise code, this section will be updated to describe what the LLM was used for, what had to be manually changed or reprompted, and what the LLM did not do correctly.
