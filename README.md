@@ -98,8 +98,27 @@ I used an LLM in the following ways during this project:
 1. **Finding relevant F# built-in functions and APIs**
    I used an LLM to identify existing F#/.NET functions that could support the features I wanted to implement. For example, feedback was originally represented using characters such as [Y], [G], and [B]. To improve readability, I decided to display feedback using different colors in the CLI. The LLM helped me discover the relevant console functions for changing text colors, which enabled me to implement this feature successfully.
 
+   The prompt given to the LLM was:
+   "F#에서 cli 출력 색을 변경시킬 수 있는 함수가 있어?"
+   LLM has successfully introduced me 
+   ```f#
+   Console.ForegroundColor
+   ``` 
+   function.
+
 2. **Learning file-handling syntax**
    The project required reading data from a `.txt` file and processing its contents. I used an LLM to learn the necessary F# syntax and file I/O functions for opening text files, reading their contents, and integrating the data into the game logic.
+
+   The prompt given to the LLM was:
+   "F#에서 .txt 파일을 열어서 그 안의 텍스트를 가지고 리스트를 만드는 방법에 대해 설명해줘"
+   LLM has successfully introduced me 
+   ```f#
+   Path.Combine	System.IO.Path
+   AppContext.BaseDirectory
+   File.Exists	System.IO.File
+   File.ReadAllLines	System.IO.File	
+   ```
+   functions.
 
 ## Data Source
 
