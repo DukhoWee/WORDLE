@@ -10,9 +10,6 @@ module Program =
             words.[random.Next(words.Length)]
         
         ConsoleUI.printIntro config
-        printfn "Project scaffold is ready."
-        printfn "Loaded %d valid five-letter words." words.Length
-        printfn "Next step: implement the game loop in src/Program.fs."
 
         let rec gameLoop _ = 
             let answer = pickAnswer ()
