@@ -113,10 +113,13 @@ I used an LLM in the following ways during this project:
    "F#에서 .txt 파일을 열어서 그 안의 텍스트를 가지고 리스트를 만드는 방법에 대해 설명해줘"
    LLM has successfully introduced me 
    ```f#
-   Path.Combine	System.IO.Path
+   Path.Combine	
+   System.IO.Path
    AppContext.BaseDirectory
-   File.Exists	System.IO.File
-   File.ReadAllLines	System.IO.File	
+   File.Exists	
+   System.IO.File
+   File.ReadAllLines	
+   System.IO.File	
    ```
    functions.
 
