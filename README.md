@@ -83,6 +83,14 @@ The original requirements described three feedback symbols: `[G]`, `[Y]`, and `[
 
 This change is purely a presentation enhancement and does not modify the meaning or behavior of the feedback system. The same feedback information required by the proposal is still provided, with improved visual clarity for the player.
 
+### Change 3: Dictionary Validation for Guesses
+
+The original requirements only specified that a valid guess must consist of exactly five alphabetic characters. During implementation, an additional validation rule was introduced: a guess must also exist in the game's word list (dictionary).
+
+If the user enters a five-letter alphabetic string that is not present in the dictionary, the input is treated as invalid and the user is asked to enter another guess. Invalid guesses do not consume an attempt.
+
+This change was made to better match the behavior of the original Wordle game, which accepts only recognized dictionary words as valid guesses. The change improves gameplay quality by preventing arbitrary character combinations from being used as guesses while preserving the overall game structure and requirements.
+
 
 ## LLM Usage
 I used an LLM in the following ways during this project:
